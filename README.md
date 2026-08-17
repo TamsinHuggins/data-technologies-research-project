@@ -29,20 +29,6 @@ Plan a **10-minute presentation**, with a maximum of **8 slides**.
 
 Think of yourselves as advisors explaining a technology to people who may not know much about it.
 
-A strong presentation might explore questions such as:
-
-- What problem are we trying to solve?
-- Why is it difficult?
-- What does this technology change?
-- How does it work at a high level?
-- What are the trade-offs?
-- What alternatives exist?
-- Who are the important players?
-- Where might a bank actually use this?
-- What should someone consider before choosing it?
-
-You do not need to answer these questions in this order, and you do not need to cover every question. Use them to decide what is most important for your audience to understand.
-
 ## Visuals
 
 Consider diagrams that help explain the technology.
