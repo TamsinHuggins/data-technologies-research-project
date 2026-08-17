@@ -170,9 +170,6 @@ The example does not need to be finance related.
 
 Investigate **Apache Spark** as an example of a distributed computing framework.
 
-The important question is:
-
-> **How does Spark enable computation to be distributed across multiple machines?**
 
 # Team 3 — NoSQL
 
@@ -251,14 +248,3 @@ Become familiar with examples such as:
 - **Cassandra** — wide-column
 - **Neo4j** — graph
 
-The important question is not simply **What products exist?**, but:
-
-> **What data model does each product use, and what kinds of problems does that make it well suited to?**
-
-### The key takeaway
-
-By the end of your presentation, the audience should be able to look at a problem and start asking:
-
-> **What shape does the data have, what relationships matter, and which NoSQL model best fits the way we need to use it?**
-
----
