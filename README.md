@@ -88,8 +88,6 @@ Help the audience understand the fundamental difference between **data lakes and
 - What are the main trade-offs between a lake and a warehouse?
 - When might a bank prefer one approach, and when might it use both?
 - What challenges arise around data quality, governance, security and lineage?
-- How has the distinction between lakes and warehouses evolved?
-- What does the modern technology landscape look like?
 
 ### Five keywords everyone in the group should be able to define
 
@@ -194,9 +192,6 @@ Help the audience develop a practical mental model of the major NoSQL structures
 - When would a **key-value store** make more sense?
 - What does a graph database allow you to express that is difficult or unnatural in other models?
 - How are graph databases being used alongside Large Language Models (LLMs), such as in tools like Microsoft Copilot?
-- What are the key trade-offs between the different models?
-- Could the same banking problem be represented in several NoSQL models? What changes when you do so?
-- How do products such as MongoDB, DynamoDB, Cassandra and Neo4j relate to these different structures?
 
 ### Five keywords everyone in the group should be able to define
 
