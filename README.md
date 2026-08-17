@@ -4,7 +4,7 @@
 
 This is a half-day **research project and group teaching challenge**. Your team will become the consultants and advisors on one important data technology used in modern banking. You will investigate the technology, decide what the rest of the cohort most needs to understand, and develop a **10-minute presentation** that explains it clearly in a banking context.
 
-The three teams will cover different but connected areas: **Data Lakes vs. Data Warehouses**, **Distributed Compute & Streaming**, and **NoSQL**. After all teams have presented, you will run a group quiz using five questions prepared by each team.
+The three teams will cover different but connected areas: **Data Lakes vs. Data Warehouses**, **Distributed Computing**, and **NoSQL**. After all teams have presented, you will run a group quiz using five questions prepared by each team.
 
 By the end of your presentation, the audience should be able to explain:
 
@@ -68,56 +68,72 @@ The aim is to understand at a high level **what these technologies are and where
 
 ---
 
-# Team 2 — Distributed Compute & Streaming
+# Team 2 — Distributed Computing
 
 ### Core concept
 
-Help the audience understand how **large-scale computation can be spread across multiple machines**, and how this idea relates to **processing continuously arriving data**.
+Help the audience understand how **a computational problem can be divided across multiple machines so that they can work together to process larger workloads, improve performance and provide resilience**.
 
 ### Questions to explore
 
-- Why might a bank need to process data across many machines rather than on one machine?
-- What actually happens when a computational task is distributed?
-- What are the benefits and complications of distributing work?
-- What is the difference between **batch processing** and **stream processing**?
-- What makes a streaming system different from simply processing data quickly?
-- What happens when data is arriving continuously?
-- What concepts are important in a streaming architecture?
+- Why might an organisation need to use multiple machines rather than one powerful machine?
+- What is **partitioning**, and why is it important?
+- What are the benefits of distributing computation?
+- What new problems are created when multiple machines need to work together?
 - What happens when one machine or component fails?
-- What kinds of banking problems benefit particularly from distributed processing or streaming?
-- How do technologies such as Kafka, Spark and Flink fit into the ecosystem?
+- How do distributed systems deal with failures and incomplete work?
+- What kinds of problems are particularly well suited to distributed computing?
+- What is the relationship between cloud computing and distributed computing?
+- How do technologies such as **Apache Spark** implement distributed computation?
 
 ### Five keywords everyone in the group should be able to define
 
 1. **Distributed Computing**
 2. **Parallelism**
-3. **Batch Processing**
-4. **Event Streaming**
-5. **Partitioning**
+3. **Partitioning**
+4. **Fault Tolerance**
+5. **Scalability**
 
 ### Banking angle
 
 Consider a situation such as:
 
-> A bank needs to monitor millions of transactions and identify potentially suspicious behaviour quickly.
+> A bank needs to analyse billions of transactions to identify patterns, calculate risk and detect potentially suspicious behaviour.
 
-What does this tell you about **scale, latency, processing and system architecture**?
+What does this tell you about **scale, processing time, memory, workload and system architecture**?
 
-Use the scenario as a route into the technology.
+Use the scenario to explore:
 
-### Case studies
+- Why one machine might not be sufficient
+- How the workload could be divided across many machines
+- How the machines can work on different parts of the problem simultaneously
+- What happens if one machine fails
+- How the system can scale as the workload grows
+- Whether distributing the computation actually makes the problem easier or introduces new complications
 
-Explore how a real company has used distributed compute or streaming technologies (or a specific provider's offering) for a specific use case. Investigate how the technology was used and the outcome. This example does not need to be finance related.
+The aim is to use the banking scenario to explain **why distributed computing exists**, rather than simply describing the technology.
 
-### Players and terminology
+### Case study
 
-Investigate technologies and companies such as Apache Kafka, Confluent, Apache Spark, Apache Flink and Databricks.
+Explore how a real company has used **distributed computing** to solve a specific large-scale problem.
+
+The example does not need to be finance related.
+
+### Technology and terminology
+
+Investigate **Apache Spark** as an example of a distributed computing framework.
 
 The important question is:
 
-> **What job does each technology perform, and how do they fit together?**
+> **What does Spark actually do to enable computation to be distributed across multiple machines?**
 
----
+Focus on understanding the underlying ideas rather than simply describing the product.
+
+You should be able to explain the relationship between:
+
+**Problem → Partitioning → Parallel computation → Multiple machines → Coordination → Result**
+
+and explain why distributed computing introduces both **benefits and complications**.
 
 # Team 3 — NoSQL
 
