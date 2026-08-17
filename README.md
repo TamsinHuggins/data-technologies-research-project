@@ -41,10 +41,6 @@ Useful visuals might show:
 - how data is represented;
 - or what happens before and after introducing the technology.
 
-The key question is:
-
-> **Does this visual make the concept easier to understand?**
-
 ---
 
 # Your five-question quiz
