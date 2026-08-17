@@ -22,6 +22,71 @@ By the end of your presentation, the audience should be able to explain:
 
 ---
 
+
+# Your presentation
+
+Plan a **10-minute presentation**, with a maximum of **8 slides**.
+
+Think of yourselves as advisors explaining a technology to people who may not know much about it.
+
+A strong presentation might explore questions such as:
+
+- What problem are we trying to solve?
+- Why is it difficult?
+- What does this technology change?
+- How does it work at a high level?
+- What are the trade-offs?
+- What alternatives exist?
+- Who are the important players?
+- Where might a bank actually use this?
+- What should someone consider before choosing it?
+
+You do not need to answer these questions in this order, and you do not need to cover every question. Use them to decide what is most important for your audience to understand.
+
+## Visuals
+
+Consider diagrams that help explain the technology.
+
+Useful visuals might show:
+
+- how information flows through a system;
+- how components interact;
+- how different approaches compare;
+- how data is represented;
+- or what happens before and after introducing the technology.
+
+The key question is:
+
+> **Does this visual make the concept easier to understand?**
+
+---
+
+# Your five-question quiz
+
+Your group must create **5 questions** for the other groups.
+
+The questions should test the **key learning from your presentation**.
+
+The questions should be answerable by someone who has paid attention to your presentation, without needing to do additional research.
+
+---
+
+# Optional stretch goal — live demo
+
+Once your presentation is ready, you may consider preparing a short live demo.
+
+Research what might be achievable within the time available and decide whether a demo would genuinely strengthen your presentation.
+
+The demo should remain a **secondary goal**. Do not let it distract from delivering a clear presentation.
+
+---
+
+
+
+
+
+
+
 # Team 1 — Data Lakes vs. Data Warehouses
 
 ### Core concept
@@ -100,8 +165,6 @@ Consider a situation such as:
 
 > A bank needs to analyse billions of transactions to identify patterns, calculate risk and detect potentially suspicious behaviour.
 
-What does this tell you about **scale, processing time, memory, workload and system architecture**?
-
 Use the scenario to explore:
 
 - Why one machine might not be sufficient
@@ -125,15 +188,7 @@ Investigate **Apache Spark** as an example of a distributed computing framework.
 
 The important question is:
 
-> **What does Spark actually do to enable computation to be distributed across multiple machines?**
-
-Focus on understanding the underlying ideas rather than simply describing the product.
-
-You should be able to explain the relationship between:
-
-**Problem → Partitioning → Parallel computation → Multiple machines → Coordination → Result**
-
-and explain why distributed computing introduces both **benefits and complications**.
+> **How does Spark enable computation to be distributed across multiple machines?**
 
 # Team 3 — NoSQL
 
@@ -224,63 +279,5 @@ The important question is not simply **What products exist?**, but:
 By the end of your presentation, the audience should be able to look at a problem and start asking:
 
 > **What shape does the data have, what relationships matter, and which NoSQL model best fits the way we need to use it?**
-
----
-
-# Your presentation
-
-Plan a **10-minute presentation**, with a maximum of **8 slides**.
-
-Think of yourselves as advisors explaining a technology to people who may not know much about it.
-
-A strong presentation might explore questions such as:
-
-- What problem are we trying to solve?
-- Why is it difficult?
-- What does this technology change?
-- How does it work at a high level?
-- What are the trade-offs?
-- What alternatives exist?
-- Who are the important players?
-- Where might a bank actually use this?
-- What should someone consider before choosing it?
-
-You do not need to answer these questions in this order, and you do not need to cover every question. Use them to decide what is most important for your audience to understand.
-
-## Visuals
-
-Consider diagrams that help explain the technology.
-
-Useful visuals might show:
-
-- how information flows through a system;
-- how components interact;
-- how different approaches compare;
-- how data is represented;
-- or what happens before and after introducing the technology.
-
-The key question is:
-
-> **Does this visual make the concept easier to understand?**
-
----
-
-# Your five-question quiz
-
-Your group must create **5 questions** for the other groups.
-
-The questions should test the **key learning from your presentation**.
-
-The questions should be answerable by someone who has paid attention to your presentation, without needing to do additional research.
-
----
-
-# Optional stretch goal — live demo
-
-Once your presentation is ready, you may consider preparing a short live demo.
-
-Research what might be achievable within the time available and decide whether a demo would genuinely strengthen your presentation.
-
-The demo should remain a **secondary goal**. Do not let it distract from delivering a clear presentation.
 
 ---
